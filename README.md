@@ -25,7 +25,7 @@ yarn dev
   - Url example: http://localhost:3000/users
 - GET specific user
   - Array index is required in route parameters
-  - Returns an array of users
+  - Returns an user
   - Url example: http://localhost:3000/users/1
 - POST
   - Create user
