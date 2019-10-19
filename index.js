@@ -42,7 +42,7 @@ server.get('/users', (req, res) => {
 server.get('/users/:index', checkUserInArray, (req, res) => {
   const { user } = req
 
-  return res.json({ user })
+  return res.json(user)
 })
 
 server.post('/users', checkNameExists, (req, res) => {
